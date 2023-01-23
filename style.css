@@ -84,8 +84,9 @@ h1 {
 }
 
 #icons {
-    text-align: center;
     padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .icon {
