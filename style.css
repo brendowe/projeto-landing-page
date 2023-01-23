@@ -7,8 +7,8 @@
 }
 
 :root {
-    --fonte1: hsl(257, 40%, 49%);
-    --fonte2: hsl(300, 69%, 71%);
+    --cor1: hsl(257, 40%, 49%);
+    --cor2: hsl(300, 69%, 71%);
 }
 
 html {
@@ -18,8 +18,8 @@ html {
 
 main {
     width: 100vw;
-    height: 100vh;
-    background-color: var(--fonte1);
+    height: 100%;
+    background-color: var(--cor1);
 }
 
 #icon1 {
@@ -47,7 +47,7 @@ h2 {
 }
 
 section {
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 p {
@@ -68,16 +68,27 @@ h1 {
     font-size: 30px;
 }
 
-a {
+#sec1 a {
     display: block;
     width: 250px;
     height: 50px;
     background-color: white;
-    color: var(--fonte1);
+    color: var(--cor1);
     border-radius: 30px;
     margin: auto;
     margin-top: 35px;
     padding-top: 15px;
     text-align: center;
     text-decoration: none;
+    /*margin-bottom: -20px;*/
+}
+
+#icons {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.icon {
+    width: 40px;
+    padding: 5px;
 }
