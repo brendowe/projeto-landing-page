@@ -1,4 +1,6 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@400;600&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +11,7 @@
 :root {
     --cor1: hsl(257, 40%, 49%);
     --cor2: hsl(300, 69%, 71%);
+    --fonte1:  'Poppins', sans-serif;
 }
 
 html {
@@ -28,14 +31,16 @@ main {
 
 h2 {
     display: flex;
-    padding-left: 40px;
+    padding-left: 10px;
     padding-top: 3vh;
     align-items: center;
     color: white;
+    font-family: var(--fonte1);
+
 }
 
 #screen {
-    padding-left: 40px;
+    padding-left: 10px;
     padding-top: 60px;
     width: 350px;
 }
@@ -58,6 +63,7 @@ p {
     font-size: 20px;
     padding-top: 25px;
     line-height: 30px;
+    font-family: var(--fonte1);
 }
 
 h1 {
@@ -66,6 +72,8 @@ h1 {
     text-align: center;
     margin: auto;
     font-size: 30px;
+    font-family: var(--fonte1);
+    width: 350px;
 }
 
 #sec1 a {
@@ -80,7 +88,7 @@ h1 {
     padding-top: 15px;
     text-align: center;
     text-decoration: none;
-    /*margin-bottom: -20px;*/
+    font-family: var(--fonte1);
 }
 
 #icons {
