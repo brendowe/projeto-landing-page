@@ -56,11 +56,11 @@ section {
 }
 
 p {
-    width: 330px;
+    width: 360px;
     color: white;
     text-align: center;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 25px;
     line-height: 30px;
     font-family: var(--fonte1);
