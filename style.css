@@ -94,20 +94,30 @@ h1 {
     color: white;
 }
 
-#icons {
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
+span {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 5px;
 }
 
-.icon {
-    width: 40px;
-    height: 40px;
-    padding: 5px;
+i {
+    color: white;
 }
 
-.icon:hover {
-    background-color: var(--cor2);
+#faces {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+#insta {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+span:hover, i:hover {
+    border-color: var(--cor2);
+    background-color:var(--cor2);
 }
 
 @media (min-width: 1440px) {
