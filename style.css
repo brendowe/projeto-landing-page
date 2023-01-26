@@ -47,7 +47,7 @@ h2 {
 }
 
 #screen {
-    padding-top: 40px;
+    padding-top: 20px;
     width: 300px;
 }
 
@@ -56,11 +56,11 @@ section {
 }
 
 p {
-    width: 320px;
+    width: 280px;
     color: white;
     text-align: center;
     margin: auto;
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 25px;
     line-height: 30px;
     font-family: var(--fonte1);
@@ -76,7 +76,7 @@ h1 {
 }
 
 #sec1 {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 #sec1 a {
@@ -87,7 +87,7 @@ h1 {
     color: var(--cor1);
     border-radius: 30px;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 30px;
     padding-top: 15px;
     text-align: center;
     text-decoration: none;
@@ -100,7 +100,7 @@ h1 {
 }
 
 #icons {
-    padding-top: 60px;
+    padding-top: 50px;
     text-align: center;
 }
 
