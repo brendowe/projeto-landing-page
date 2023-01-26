@@ -39,7 +39,7 @@ h2 {
 
 #screen {
     padding-left: 40px;
-    padding-top: 60px;
+    padding-top: 40px;
     width: 350px;
 }
 
@@ -54,11 +54,11 @@ section {
 }
 
 p {
-    width: 360px;
+    width: 320px;
     color: white;
     text-align: center;
     margin: auto;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 25px;
     line-height: 30px;
     font-family: var(--fonte1);
@@ -71,6 +71,10 @@ h1 {
     font-size: 30px;
     font-family: var(--fonte1);
     width: 350px;
+}
+
+#sec1 {
+    padding-top: 50px;
 }
 
 #sec1 a {
@@ -93,11 +97,16 @@ h1 {
     color: white;
 }
 
+#icons {
+    padding-top: 60px;
+    text-align: center;
+}
+
 span {
     border: 1px solid white;
     border-radius: 50%;
-    padding: 20px;
-    margin: 5px;
+    padding: 10px;
+    margin: 2px;
 }
 
 i {
@@ -105,13 +114,13 @@ i {
 }
 
 #faces {
-    padding-left: 23px;
-    padding-right: 23px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 
 #insta {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 
 span:hover, i:hover {
